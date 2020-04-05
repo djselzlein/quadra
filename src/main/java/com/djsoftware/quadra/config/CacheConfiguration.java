@@ -42,6 +42,7 @@ public class CacheConfiguration {
             createCache(cm, com.djsoftware.quadra.domain.User.class.getName());
             createCache(cm, com.djsoftware.quadra.domain.Authority.class.getName());
             createCache(cm, com.djsoftware.quadra.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.djsoftware.quadra.domain.Booking.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
