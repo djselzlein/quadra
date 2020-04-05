@@ -1,0 +1,11 @@
+version: '2'
+services:
+  quadra-postgresql:
+    image: postgres:12.1
+    # volumes:
+    #     - ~/volumes/jhipster/quadra/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=quadra
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432

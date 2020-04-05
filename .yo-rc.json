@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.djsoftware.quadra",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "monolith",
+    "baseName": "quadra",
+    "packageName": "com.djsoftware.quadra",
+    "packageFolder": "com/djsoftware/quadra",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NTNiMDdiYjM1ZmYxNzlmNzVmMzA1NDdkYjYzMmZkMjhjMGE4NWU0NGJlZjVhYzBmM2RlZjRlZDA5NzAxZGE1ZDkyZTNmZDQzMDQwY2NiMzc4YjRkYjM4ODQwODM2ZmI2NWQ5NTJhMGU4YjMyYWJkZWVjODk0ZDY0MjQyNTQ5OTc=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "lumen",
+    "clientThemeVariant": "primary",
+    "creationTimestamp": 1586109157774,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "pt-br"],
+    "blueprints": []
+  }
+}
